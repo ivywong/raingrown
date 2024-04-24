@@ -175,6 +175,7 @@ function updateRain() {
   const rain = document.getElementById("rain") as HTMLDivElement;
   if (!isRaining) {
     raindrops = [];
+    return;
   }
 
   for (let i = 0; i < raindrops.length; i++) {
