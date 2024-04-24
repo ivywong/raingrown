@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Raingrown</title>
+  <script type="module" src="src/index.ts"></script>
+</head>
+
+<body>
+  <div id="ui">
+    <input id="cityInput" type="input" name="locationQuery" value="" placeholder="Enter a city name..." />
+    <button id="queryRain" type="button" for="locationQuery">
+      Plant a Garden Here
+    </button>
+    <p id="locationInfo">current garden location: somewhere</p>
+    <p id="rainInfo">it is raining</p>
+  </div>
+
+  <div id="rain"></div>
+  <div id="garden"></div>
+</body>
+
+</html>

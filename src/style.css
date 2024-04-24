@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #d9eeb0;
+
+  color: green;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+button {
+  background-color: #d9eeb0;
+  border: 1px dashed green;
+  color: green;
+}
+
+button:focus,
+button:hover {
+  color: darkgreen;
+  border: 1px solid green;
+}
+
+p {
+  margin: 5px;
+  padding: 0 5px;
+}
+
+#ui {
+  z-index: 10;
+  position: relative;
+  background-color: rgba(217, 238, 176, 0.8);
+  width: fit-content;
+}
+
+#garden {
+  height: 100vh;
+  width: 100vw;
+  color: green;
+}
+
+.plant {
+  position: absolute;
+  padding: 0 20px;
+  font-size: 1.5em;
+}
+
+#rain {
+  height: 100vh;
+  width: 100vw;
+  color: #38b6b1;
+  position: fixed;
+}
+
+.raindrop {
+  position: absolute;
+}
